@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#3a2454" />
+  <meta name="description" content="The Law Office of Salah Harrell, LLC — South Georgia personal injury law with a 25% attorney fee. We get less. You keep more." />
+
+  <title>The Law Office of Salah Harrell, LLC · 25% Attorney Fee — Atlanta &amp; South Georgia Injury Lawyer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="assets/ray-charles-plaza.png" fetchpriority="high" />
+  <link rel="preload" as="image" href="assets/salah-portrait-warm.png" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css?v=28" />
+</head>
+<body>
+  <!-- ============ Loader / Curtain ============ -->
+  <div class="curtain" id="curtain" aria-hidden="true">
+    <div class="curtain__inner">
+      <span class="curtain__mark">SH</span>
+      <span class="curtain__motto" aria-label="Probitatis, Integritas, Patrocinio, Imperium">
+        <span class="curtain__motto-row"><i>Probitatis</i><b aria-hidden="true">·</b><i>Integritas</i></span>
+        <span class="curtain__motto-row"><i>Patrocinio</i><b aria-hidden="true">·</b><i>Imperium</i></span>
+      </span>
+      <span class="curtain__bar"><i></i></span>
+    </div>
+  </div>
+
+  <!-- ============ Custom Cursor ============ -->
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__ring"></div>
+  </div>
+
+  <!-- ============ Scroll Progress ============ -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============ Nav ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand" data-magnetic>
+      <span class="nav__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 5h14M12 5v3M7 8l-3 7h6L7 8Zm10 0-3 7h6l-3-7ZM7 18h10M12 16v2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="nav__name">Salah H. Crews<i>· Attorney at Law</i></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#difference" data-magnetic>25% Fee</a>
+      <a href="#fee" data-magnetic>Fee Structure</a>
+      <a href="#about" data-magnetic>About Salah</a>
+      <a href="#why" data-magnetic>Why Choose Us</a>
+      <a href="#quality" data-magnetic>Quality</a>
+      <a href="#practice" data-magnetic>Practice</a>
+    </nav>
+
+    <div class="nav__cta">
+      <a class="phone" href="tel:+14048685562" data-magnetic>
+        <span class="phone__dot"></span>
+        404&#8209;868&#8209;5562
+      </a>
+      <a class="btn btn--ghost" href="#contact" data-magnetic>
+        <span>Free Consultation</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ Mobile Menu ============ -->
+  <div class="sheet" id="sheet" aria-hidden="true">
+    <div class="sheet__panel">
+      <a href="#difference">25% Fee</a>
+      <a href="#fee">Fee Structure</a>
+      <a href="#about">About Salah</a>
+      <a href="#why">Why Choose Us</a>
+      <a href="#quality">Quality</a>
+      <a href="#practice">Practice Areas</a>
+      <a href="#process">Process</a>
+      <a href="#rooted">South Georgia</a>
+      <a href="#contact" class="sheet__cta">Free Consultation →</a>
+      <p class="sheet__meta">404-868-5562 · Atlanta &amp; South GA</p>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="assets/ray-charles-plaza.png" alt="" class="hero__img" id="heroImg" />
+        <div class="hero__veil"></div>
+        <div class="hero__grain"></div>
+      </div>
+
+      <div class="hero__rail">
+        <span>EST. 2020 · Atlanta &amp; South GA</span>
+        <i></i>
+        <span>Personal Injury Law</span>
+      </div>
+
+      <div class="hero__grid">
+        <div class="hero__intro">
+          <h1 class="hero__title hero__title--mark" data-reveal>
+            <span class="hero__title-firm">
+              <span class="hero__title-firm-rule" aria-hidden="true"></span>
+              Law Offices of Salah Harrell:
+            </span>
+            <span class="hero__title-line">
+              South Georgia <em>Discount</em>
+              <span class="hero__title-sep" aria-hidden="true"></span>
+              <span class="hero__title-pct">25<sup>%</sup></span>
+            </span>
+            <span class="visually-hidden"> &mdash; 25 percent attorney fee.</span>
+          </h1>
+
+          <p class="hero__lede" data-reveal>
+            Groceries are high, gas prices are high, and the cost of living is through the roof. We want to put more money in your pocket. We take less, you keep more because we understand how expensive things are right now. We understand this is money that you could use for medical treatment, on-going care, for yourself, for your family, and your financial stability while you heal. Working with a personal injury attorney should relieve your financial burden, not add to it. Our goal is to get you compensated fairly for your injury and provide you with the financial relief we all can use.
+          </p>
+        </div>
+
+        <div class="hero__main">
+          <div class="hero__cta" data-reveal>
+            <a class="btn btn--primary" href="#contact" data-magnetic>
+              <span>Talk to Salah today</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--text" href="#difference" data-magnetic>
+              <span>Why 25%?</span>
+            </a>
+          </div>
+
+          <aside class="hero__quick" data-reveal aria-labelledby="hero-quick-title">
+            <div class="hero__quick-head">
+              <span class="hero__quick-tag">Free · No obligation</span>
+              <h2 class="hero__quick-title" id="hero-quick-title">Free Case Consultation</h2>
+            </div>
+            <form class="hero__quick-form" id="heroForm" action="https://formsubmit.co/info@salahlawfirm.com" method="POST" novalidate>
+              <input type="hidden" name="_subject" value="South GA 25 — Free Case Consultation (Hero)" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="form_source" value="Hero — Free Case Consultation" />
+              <div class="form-honey" aria-hidden="true">
+                <input type="text" name="_honey" tabindex="-1" autocomplete="off" />
+              </div>
+              <div class="hq-field">
+                <input type="text" id="hq-name" name="name" required autocomplete="name" placeholder=" " />
+                <label for="hq-name">Name</label>
+              </div>
+              <div class="hq-field">
+                <input type="tel" id="hq-phone" name="phone" required autocomplete="tel" placeholder=" " />
+                <label for="hq-phone">Phone number</label>
+              </div>
+              <div class="hq-field hq-field--full">
+                <input type="email" id="hq-email" name="email" autocomplete="email" placeholder=" " />
+                <label for="hq-email">Email</label>
+              </div>
+              <div class="hq-field hq-field--full">
+                <textarea id="hq-msg" name="message" rows="2" placeholder=" "></textarea>
+                <label for="hq-msg">How can we help?</label>
+              </div>
+              <button type="submit" class="btn btn--primary hero__quick-submit" data-magnetic>
+                <span>Get Started</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <p class="form-error" id="heroFormError" role="alert" aria-live="polite" hidden></p>
+              <div class="hero__quick-success" id="heroFormSuccess" aria-hidden="true">
+                <strong>Got it.</strong>
+                <p>Salah or someone from the office will reach out within one business day. If it&rsquo;s urgent, dial <a href="tel:+14048685562">404-868-5562</a> now.</p>
+              </div>
+            </form>
+          </aside>
+        </div>
+
+        <aside class="hero__portrait" data-reveal aria-label="Salah Harrell, Attorney at Law">
+          <div class="hero__portrait-frame">
+            <img src="assets/salah-portrait-warm.png" alt="Salah Harrell Crews, Attorney at Law" />
+            <div class="hero__portrait-tag">
+              <span class="hero__portrait-name">Salah Harrell Crews</span>
+              <span class="hero__portrait-role">Attorney at Law · GA Bar</span>
+            </div>
+            <div class="hero__portrait-badge">
+              <span class="hero__portrait-badge-num">25<i>%</i></span>
+              <span class="hero__portrait-badge-lbl">Attorney<br/>Fee</span>
+            </div>
+          </div>
+        </aside>
+
+        <div class="hero__stats" data-reveal>
+          <div>
+            <strong data-count="25" data-suffix="%">0%</strong>
+            <span>Attorney fee, flat rate</span>
+          </div>
+          <div>
+            <strong data-count="0" data-prefix="$" data-suffix=" Upfront">$0 Upfront</strong>
+            <span>Nothing unless we win</span>
+          </div>
+          <div>
+            <strong data-count="24" data-suffix="h">0h</strong>
+            <span>Same-day response goal</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#difference" data-magnetic aria-label="Scroll to next section">
+        <span>Scroll</span>
+        <i></i>
+      </a>
+
+      <div class="hero__marquee" aria-hidden="true">
+        <div class="marquee">
+          <span>· Car Accidents</span><span>· Trucking Accidents</span><span>· Slip &amp; Fall</span><span>· Wrongful Death</span><span>· Premises Liability</span><span>· Catastrophic Injury</span><span>· Car Accidents</span><span>· Trucking Accidents</span><span>· Slip &amp; Fall</span><span>· Wrongful Death</span><span>· Premises Liability</span><span>· Catastrophic Injury</span>
+        </div>
+      </div>
+    </section>
+
+        <aside class="pledge" data-reveal aria-label="A pledge from Salah Harrell">
+          <figure class="pledge__media pledge__media--banner">
+            <div class="pledge__frame pledge__frame--banner">
+              <img src="assets/salah-harrell-banner.png" alt="The Law Office of Salah Harrell, LLC — 25% attorney fee. We get less, you keep more." loading="lazy" />
+            </div>
+          </figure>
+          <div class="pledge__body">
+            <span class="pledge__tag">A pledge from Salah</span>
+            <span class="pledge__mark" aria-hidden="true">&ldquo;</span>
+            <p class="pledge__quote">
+              Less for the firm. <em>More for your family.</em>
+            </p>
+            <p class="pledge__sub">
+              That 15&#8209;point difference isn&rsquo;t just a number on a contract &mdash;
+              it&rsquo;s groceries, rent, medical bills, and breathing room while you heal.
+              It belongs in your pocket, not ours.
+            </p>
+            <div class="pledge__sign">
+              <span class="pledge__sig">— Salah Harrell Crews</span>
+              <a class="pledge__cta" href="#contact" data-magnetic>
+                <span>Talk to Salah today</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </aside>
+
+      <ul class="pillars">
+        <li data-reveal>
+          <span class="pillars__num">A</span>
+          <h3>Transparent from day one</h3>
+          <p>25% from the very first call, full stop. No surprise line items, no &ldquo;administrative costs&rdquo; that quietly eat your check. The math you see at intake is the math at settlement.</p>
+        </li>
+        <li data-reveal>
+          <span class="pillars__num">B</span>
+          <h3>Salah, on every case</h3>
+          <p>Your case is never quietly handed off. Salah personally signs every demand, reviews every offer, and sits across from you for every hard conversation.</p>
+        </li>
+        <li data-reveal>
+          <span class="pillars__num">C</span>
+          <h3>Built for Georgia families</h3>
+          <p>South Georgia values, Atlanta resources. When your check arrives larger, it stays in our communities &mdash; with families, local businesses, and the neighborhoods that raised us.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ FEE STRUCTURE DETAIL ============ -->
+    <section class="fee" id="fee" aria-label="Fee Structure Details">
+      <div class="fee__inner">
+        <div class="fee__copy">
+          <span class="tag" data-reveal>02 / Fee Structure</span>
+          <h2 data-reveal>What is different about <em>our fee structure?</em></h2>
+          <p data-reveal>
+            Most personal injury law firms charge one fee if your case settles and a higher fee if a lawsuit must be filed. At the Law Office of Salah Harrell, we believe injured people should not be penalized because the insurance company refuses to be reasonable. That is why
+            <strong>our fee remains 25%, whether your case settles before a lawsuit or requires litigation.</strong>
+            The percentage never increases simply because more work becomes necessary. Our clients know exactly what they will pay from day one.
+          </p>
+          <p data-reveal>
+            We created our fee structure because we understand the financial pressure many South Georgia families face. Groceries cost more. Gas costs more. Housing costs more. When an injury disrupts your life, the last thing you need is to lose an even larger portion of your recovery. By limiting our fee to 25%, more of the settlement remains where we believe it belongs &mdash; <strong>in your pocket.</strong>
+          </p>
+        </div>
+
+        <aside class="fee__chart" data-reveal aria-label="Fee comparison chart">
+          <div class="fee__chart-head">
+            <h3>Settlement vs. litigation</h3>
+            <p>How attorney fees typically change</p>
+          </div>
+
+          <div class="fee__bars">
+            <div class="fee__bar" data-bar="33">
+              <div class="fee__bar-label">
+                <span>Typical firm · pre-litigation</span>
+                <strong>33%</strong>
+              </div>
+              <div class="fee__bar-track">
+                <div class="fee__bar-fill" style="--w: 33%"></div>
+              </div>
+            </div>
+
+            <div class="fee__bar" data-bar="40">
+              <div class="fee__bar-label">
+                <span>Typical firm · in litigation</span>
+                <strong>40%</strong>
+              </div>
+              <div class="fee__bar-track">
+                <div class="fee__bar-fill" style="--w: 40%"></div>
+              </div>
+            </div>
+
+            <div class="fee__bar fee__bar--ours" data-bar="25">
+              <div class="fee__bar-label">
+                <span>Salah Harrell · pre-litigation</span>
+                <strong>25%</strong>
+              </div>
+              <div class="fee__bar-track">
+                <div class="fee__bar-fill" style="--w: 25%"></div>
+              </div>
+            </div>
+
+            <div class="fee__bar fee__bar--ours" data-bar="25">
+              <div class="fee__bar-label">
+                <span>Salah Harrell · in litigation</span>
+                <strong>25%</strong>
+              </div>
+              <div class="fee__bar-track">
+                <div class="fee__bar-fill" style="--w: 25%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fee__delta" data-reveal>
+            <p>
+              On a $100,000 settlement, that&rsquo;s
+              <strong>$10,000 to 20,000 more in your pocket</strong>.
+              Money for medical bills, missed paychecks, your kids&rsquo; school clothes,
+              or financial breathing room while you heal.
+            </p>
+          </div>
+
+          <p class="fee__chart-note">
+            <strong>The fee does not increase</strong> simply because more work becomes necessary.
+            Industry rates shown are typical contingency fees and may vary by firm and jurisdiction.
+          </p>
+        </aside>
+      </div>
+
+      <!-- Children's recovery callout -->
+      <div class="kids" data-reveal>
+        <span class="kids__badge">
+          $0
+          <i>Attorney Fee</i>
+        </span>
+        <div class="kids__body">
+          <h3>Children deserve special consideration.</h3>
+          <p>
+            If we recover less than <strong>$3,000</strong> for an injured child, we do not charge an
+            attorney fee &mdash; the child keeps the entire recovery. While every case is different,
+            our philosophy is simple: helping families sometimes means putting people before profits.
+            We believe that approach reflects the values of the communities we serve.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT SALAH ============ -->
+    <section class="about" id="about" aria-label="About Salah Harrell">
+      <div class="about__inner">
+        <div class="about__media" data-reveal>
+          <div class="about__media-frame">
+            <img src="assets/salah-portrait-classic.png" alt="Portrait of attorney Salah Harrell Crews" />
+            <div class="about__media-shape" aria-hidden="true"></div>
+            <div class="about__media-badge" aria-hidden="true">
+              <span>EST.</span>
+              <strong>2020</strong>
+            </div>
+          </div>
+          <div class="about__signature" data-reveal>
+            <svg viewBox="0 0 320 90" aria-hidden="true">
+              <path d="M14 60 C 40 18, 70 18, 76 50 S 110 78, 132 38 C 150 8, 178 8, 188 48 C 196 80, 232 70, 252 38 C 268 12, 296 16, 308 44"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <p>Salah Harrell Crews <i>· Attorney at Law</i></p>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <span class="tag" data-reveal>03 / About Salah</span>
+          <h2 data-reveal>
+            A South Georgia lawyer
+            <em>fighting</em>
+            for Georgia families.
+          </h2>
+
+          <div class="about__copy">
+            <p data-reveal>
+              At our firm, we believe injured people deserve to keep more of the money recovered on their
+              behalf. That is why we proudly offer a <strong>25% attorney fee for personal injury cases</strong> to
+              residents of South Georgia and clients throughout Georgia. As a Douglas, Georgia attorney,
+              I understand the values of hard work, family, and community. My goal is simple: provide
+              high-quality legal representation while ensuring that more of your settlement or recovery
+              stays where it belongs &mdash; in your pocket.
+            </p>
+
+            <p data-reveal>
+              Today, families are facing real financial challenges. The cost of groceries continues to rise,
+              inflation has stretched household budgets, and everyday expenses seem higher than ever. When
+              someone is injured because of another person&rsquo;s negligence, the financial burden can become
+              overwhelming. By charging a 25% attorney fee, I am committed to helping my clients keep more
+              of their recovery so they can pay bills, support their families, care for their children, and
+              focus on rebuilding their lives after an accident.
+            </p>
+
+            <p data-reveal>
+              As a lifelong South Georgia attorney, I am proud to serve the community that has supported me
+              throughout my career. I believe that when clients keep more of their settlement money, that
+              money stays in our local communities, helping families, businesses, and neighborhoods thrive.
+              My commitment is not only to fight for the compensation my clients deserve but also to make
+              legal representation more affordable and accessible. When you choose our firm, you choose an
+              attorney dedicated to putting more money back into the hands of Georgia families.
+            </p>
+          </div>
+
+          <ul class="about__values" data-reveal>
+            <li><span>Probitatis</span><i>Honesty</i></li>
+            <li><span>Integritas</span><i>Integrity</i></li>
+            <li><span>Patrocinio</span><i>Advocacy</i></li>
+            <li><span>Imperium</span><i>Authority</i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE ============ -->
+    <section class="why" id="why" aria-label="Why Choose the Law Office of Salah Harrell">
+      <div class="why__inner">
+        <div class="why__head">
+          <span class="tag" data-reveal>04 / Why Choose Us</span>
+          <h2 data-reveal>Why choose the <em>Law Office of Salah Harrell?</em></h2>
+          <p data-reveal>
+            Choosing a lawyer is about more than advertising. It is about finding someone who
+            understands your situation and treats your case like it matters. At the Law Office of
+            Salah Harrell, every client receives <strong>direct access to their attorney</strong> and
+            individualized attention. We take the time to answer questions, explain the process, and
+            keep clients informed. You deserve a lawyer who is accessible when you need help.
+          </p>
+          <p data-reveal>
+            Our firm was built around the belief that legal representation should be both high-quality and affordable. We do not believe South Georgia residents should have to choose between excellent representation and a fair fee. By maintaining a lower contingency fee, we strive to make legal services more consumer-friendly without sacrificing effort or commitment. Our goal is to help clients recover physically, financially, and emotionally after an injury. We view every case as an opportunity to serve our community.
+
+          </p>
+          <p data-reveal>
+            We are proud to represent hardworking people throughout South Georgia. Whether you are a parent, teacher, truck driver, healthcare worker, business owner, retiree, or student, your case deserves attention and respect. We understand that an injury can create uncertainty and stress for an entire family. Our mission is to shoulder the legal burden so you can focus on healing and moving forward. When you hire our firm, you hire a team committed to your success.
+          </p>
+        </div>
+
+        <figure class="why__portrait" data-reveal aria-label="Salah Harrell, Attorney at Law">
+          <div class="why__portrait-frame">
+            <img src="assets/salah-portrait-grey.png" alt="Salah Harrell Crews, Attorney at Law" loading="lazy" />
+          </div>
+          <figcaption class="why__portrait-caption">
+            <span class="why__portrait-name">Salah Harrell Crews</span>
+            <span class="why__portrait-role">Attorney at Law · GA Bar</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ QUALITY OF REPRESENTATION ============ -->
+    <section class="quality" id="quality" aria-label="Quality of Representation">
+      <div class="quality__inner">
+        <div class="quality__copy">
+          <span class="tag" data-reveal>05 / Quality</span>
+          <h2 data-reveal>What is the quality of <em>representation?</em></h2>
+          <p data-reveal>
+            A lower fee does not mean lower-quality representation. Every case receives the same preparation, investigation, and advocacy regardless of the percentage charged. We gather evidence, obtain medical records, communicate with insurance companies, and build claims designed to maximize recovery. Our responsibility is to pursue the best possible outcome for every client. The amount we charge does not change our commitment to excellence.
+
+          </p>
+          <p data-reveal>
+            Insurance companies are sophisticated businesses with experienced adjusters and defense
+            lawyers. Successfully handling injury claims requires <strong>knowledge, preparation,
+            and persistence.</strong> We approach each case with the understanding that every dollar
+            recovered can make a meaningful difference in a client&rsquo;s life. Whether negotiating
+            a settlement or presenting a case in court, we advocate aggressively for our clients&rsquo;
+            interests. <strong>We prepare every case with the expectation that it may require litigation.</strong>
+          </p>
+          <p data-reveal>
+            Our clients receive representation grounded in professionalism, communication, and dedication. We believe people should be treated with dignity and respect throughout the legal process. That means returning calls, providing updates, and making sure clients understand what is happening with their case. We are committed to earning trust through our actions, not just our promises. Our goal is to deliver exceptional legal representation while helping clients keep more of what they recover.
+
+          </p>
+        </div>
+
+        <aside class="quality__panel" data-reveal aria-label="How we work">
+          <header class="quality__panel-head">
+            <h3>How we work</h3>
+            <p>Five commitments to every client</p>
+          </header>
+          <ul class="quality__panel-list">
+            <li><span><strong>Prepared for trial</strong> &mdash; every case is built like it may end up in front of a jury.</span></li>
+            <li><span><strong>Aggressive negotiation</strong> &mdash; with adjusters and defense lawyers who specialize in paying less.</span></li>
+            <li><span><strong>Returned calls</strong> &mdash; same-day response is the goal, every business day.</span></li>
+            <li><span><strong>Plain-English updates</strong> &mdash; no legalese, no surprises about where your case stands.</span></li>
+            <li><span><strong>Dignified treatment</strong> &mdash; you are a person, not a file number, throughout the entire process.</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+
+
+    <!-- ============ ROOTED IN SOUTH GEORGIA ============ -->
+    <section class="albany" id="rooted" aria-label="Rooted in South Georgia">
+      <div class="albany__content">
+        <span class="tag" data-reveal>06 / Place</span>
+        <h2 data-reveal>
+          Raised in <em>Douglas.</em>
+          <br />Practicing across <span class="hl">all of Georgia.</span>
+        </h2>
+        <p data-reveal>
+          South Georgia values guide the way this firm runs. Hard work, plain talk, and a sense
+          that the lawyer you call should be someone who could&rsquo;ve sat next to you at the lunch
+          counter back home. We serve clients from Douglas and Coffee County to Albany, Valdosta,
+          and across the state &mdash; from the Atlanta office on Peachtree.
+        </p>
+        <p data-reveal>
+          The 25% attorney fee isn&rsquo;t just a number. It&rsquo;s a deliberate choice to keep more money
+          in Georgia communities &mdash; the families, the local businesses, the schools, and the
+          neighborhoods that make this state worth practicing in.
+        </p>
+
+        <dl class="facts" data-reveal>
+          <div><dt>Atlanta Office</dt><dd>1800 Peachtree Rd. NW<br/>Suite 335<br/>Atlanta, GA 30309</dd></div>
+          <div><dt>Roots</dt><dd>Douglas, GA<br/>Coffee County<br/>South Georgia</dd></div>
+          <div><dt>Service Area</dt><dd>Atlanta<br/>Albany<br/>Douglas</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ VOICES ============ -->
+    <section class="voices" id="voices" aria-label="Client voices">
+      <div class="section__head">
+        <span class="tag" data-reveal>08 / Voices</span>
+        <h2 data-reveal>What clients <em>actually</em> say.</h2>
+        <p data-reveal class="section__sub">Real reviews from real clients, verified on Google.</p>
+        <div class="voices__meta" data-reveal>
+          <span class="voices__stars" aria-label="5 out of 5 stars">
+            <i></i><i></i><i></i><i></i><i></i>
+          </span>
+          <span class="voices__meta-text">5.0 average &middot; Google Reviews</span>
+        </div>
+      </div>
+
+      <div class="quotes" id="quotes">
+        <article class="quote is-active">
+          <span class="quote__badge">Google Review</span>
+          <blockquote>
+            &ldquo;I&rsquo;m beyond grateful for the outstanding representation I received from the Law
+            Office of Salah Harrell. As a first-time client, I consulted with two other law firms
+            before choosing Attorney Harrell&rsquo;s office. This decision was one of the
+            [best I&rsquo;ve made]&hellip;&rdquo;
+          </blockquote>
+          <footer>
+            <span class="quote__name">Marie Styles</span>
+            <span class="quote__stars" aria-label="5 stars"><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="quote__source">Local Guide &middot; 31 reviews &middot; via Google</span>
+          </footer>
+        </article>
+
+        <article class="quote">
+          <span class="quote__badge">Google Review</span>
+          <blockquote>
+            &ldquo;Attorney Salah Harrell was incredibly knowledgeable and professional, guiding me
+            through every step of the process with clarity and confidence. They took the time to
+            answer all my questions and explained my options thoroughly, which gave me [peace of
+            mind]&hellip;&rdquo;
+          </blockquote>
+          <footer>
+            <span class="quote__name">Todd Grady</span>
+            <span class="quote__stars" aria-label="5 stars"><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="quote__source">10 reviews &middot; via Google</span>
+          </footer>
+        </article>
+
+        <article class="quote">
+          <span class="quote__badge">Google Review</span>
+          <blockquote>
+            &ldquo;Salah is an exceptional attorney who handled my friend&rsquo;s case with remarkable
+            professionalism. While I haven&rsquo;t personally used her services, I witnessed firsthand
+            how she transformed my close friend&rsquo;s legal situation with her expertise and
+            [dedication]&hellip;&rdquo;
+          </blockquote>
+          <footer>
+            <span class="quote__name">Jenny Stone</span>
+            <span class="quote__stars" aria-label="5 stars"><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="quote__source">Local Guide &middot; 35 reviews &middot; via Google</span>
+          </footer>
+        </article>
+
+        <article class="quote">
+          <span class="quote__badge">Google Review</span>
+          <blockquote>
+            &ldquo;Salah is very professional and responsive. She kept in contact with me to make sure
+            everything was going well with me personally as well! She&rsquo;s very caring and has the
+            best attitude a client could ask for!! She&rsquo;s very proactive, addressing&hellip;&rdquo;
+          </blockquote>
+          <footer>
+            <span class="quote__name">Marshay Bartley</span>
+            <span class="quote__stars" aria-label="5 stars"><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="quote__source">Local Guide &middot; 12 reviews &middot; via Google</span>
+          </footer>
+        </article>
+
+        <article class="quote">
+          <span class="quote__badge">Google Review</span>
+          <blockquote>
+            &ldquo;Attorney Harrell is an outstanding lawyer. I highly recommend her for your legal
+            service.&rdquo;
+          </blockquote>
+          <footer>
+            <span class="quote__name">Glenda Jackson</span>
+            <span class="quote__stars" aria-label="5 stars"><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="quote__source">2 reviews &middot; via Google</span>
+          </footer>
+        </article>
+      </div>
+
+      <div class="quotes__nav" aria-label="Quote navigation">
+        <button data-q="0" aria-label="Quote 1 — Marie Styles" class="is-active"></button>
+        <button data-q="1" aria-label="Quote 2 — Todd Grady"></button>
+        <button data-q="2" aria-label="Quote 3 — Jenny Stone"></button>
+        <button data-q="3" aria-label="Quote 4 — Marshay Bartley"></button>
+        <button data-q="4" aria-label="Quote 5 — Glenda Jackson"></button>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-label="Contact">
+      <div class="contact__panel">
+        <div class="contact__copy">
+          <span class="tag" data-reveal>7 / Free Consultation</span>
+          <h2 data-reveal>Tell Salah what happened.<br/><em>She&rsquo;ll tell you what&rsquo;s next.</em></h2>
+          <p data-reveal>Free, confidential, no obligation. Submit the form or call &mdash; either reaches the same attorney. Our goal is to get you compensated fairly for your injury and provide the financial relief we all can use.</p>
+
+          <ul class="contact__list" data-reveal>
+            <li><span>Call</span><a href="tel:+14048685562">404-868-5562</a></li>
+            <li><span>Email</span><a href="mailto:info@salahlawfirm.com">info@salahlawfirm.com</a></li>
+            <li><span>Fax</span><a href="tel:+14049732684">404-973-2684</a></li>
+            <li><span>Office</span><a href="https://maps.google.com/?q=1800+Peachtree+Rd+NW+Suite+335+Atlanta+GA+30309" target="_blank" rel="noopener">1800 Peachtree Rd. NW, Suite 335, Atlanta, GA 30309</a></li>
+          </ul>
+        </div>
+
+        <form class="contact__form" id="contactForm" action="https://formsubmit.co/info@salahlawfirm.com" method="POST" data-reveal novalidate>
+          <input type="hidden" name="_subject" value="South GA 25 — Contact Form Inquiry" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="form_source" value="Contact — Free Consultation" />
+          <div class="form-honey" aria-hidden="true">
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" />
+          </div>
+          <div class="field">
+            <input type="text" id="f-name" name="name" required autocomplete="name" placeholder=" " />
+            <label for="f-name">Your name</label>
+            <span class="field__line"></span>
+          </div>
+
+          <div class="field">
+            <input type="tel" id="f-phone" name="phone" required autocomplete="tel" placeholder=" " />
+            <label for="f-phone">Best phone number</label>
+            <span class="field__line"></span>
+          </div>
+
+          <div class="field">
+            <input type="email" id="f-email" name="email" autocomplete="email" placeholder=" " />
+            <label for="f-email">Email (optional)</label>
+            <span class="field__line"></span>
+          </div>
+
+          <div class="field">
+            <select id="f-type" name="type" required>
+              <option value="" disabled selected hidden></option>
+              <option>Car accident</option>
+              <option>Trucking accident</option>
+              <option>Slip &amp; fall</option>
+              <option>Wrongful death</option>
+              <option>Premises liability</option>
+              <option>Catastrophic injury</option>
+              <option>Something else</option>
+            </select>
+            <label for="f-type">Type of case</label>
+            <span class="field__line"></span>
+          </div>
+
+          <div class="field field--full">
+            <textarea id="f-msg" name="message" rows="3" placeholder=" "></textarea>
+            <label for="f-msg">A sentence or two about what happened</label>
+            <span class="field__line"></span>
+          </div>
+
+          <div class="contact__submit">
+            <button type="submit" class="btn btn--primary" data-magnetic>
+              <span>Send to Salah</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <p class="contact__fineprint">Submitting this form does not create an attorney-client relationship. We&rsquo;ll respond within one business day. If it&rsquo;s urgent, please call 404-868-5562 directly.</p>
+            <p class="form-error" id="contactFormError" role="alert" aria-live="polite" hidden></p>
+          </div>
+
+          <div class="contact__success" id="contactSuccess" aria-hidden="true">
+            <strong>Got it.</strong>
+            <p>Salah or someone from the office will reach out within one business day. If it&rsquo;s urgent, dial <a href="tel:+14048685562">404-868-5562</a> now.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="foot">
+    <div class="foot__top">
+      <div class="foot__brand">
+        <span class="nav__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 5h14M12 5v3M7 8l-3 7h6L7 8Zm10 0-3 7h6l-3-7ZM7 18h10M12 16v2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>The Law Office of<br/>Salah Harrell, LLC</h3>
+        <p>South Georgia injury law, built around a fairer fee and clearer process. <em>We get less. You keep more.</em></p>
+        <p class="foot__motto">Probitatis · Integritas · Patrocinio · Imperium</p>
+      </div>
+
+      <div class="foot__cols">
+        <div>
+          <h4>Practice</h4>
+          <a href="#practice">Car accidents</a>
+          <a href="#practice">Trucking accidents</a>
+          <a href="#practice">Slip &amp; fall</a>
+          <a href="#practice">Wrongful death</a>
+          <a href="#practice">Premises liability</a>
+          <a href="#practice">Catastrophic injury</a>
+        </div>
+        <div>
+          <h4>Firm</h4>
+          <a href="#difference">25% Fee</a>
+          <a href="#fee">Fee Structure</a>
+          <a href="#about">About Salah</a>
+          <a href="#why">Why Choose Us</a>
+          <a href="#quality">Quality</a>
+          <a href="#process">Process</a>
+          <a href="#rooted">South Georgia</a>
+          <a href="https://www.lawofficeofsalahharrellga.com" target="_blank" rel="noopener">Main site ↗</a>
+        </div>
+        <div>
+          <h4>Reach us</h4>
+          <a href="tel:+14048685562">404-868-5562</a>
+          <a href="mailto:info@salahlawfirm.com">info@salahlawfirm.com</a>
+          <a href="https://maps.google.com/?q=1800+Peachtree+Rd+NW+Suite+335+Atlanta+GA+30309" target="_blank" rel="noopener">1800 Peachtree Rd, Suite 335<br/>Atlanta, GA 30309</a>
+          <a href="#contact">Free consultation →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot__bottom">
+      <p>&copy; <span id="yr">2026</span> The Law Office of Salah Harrell, LLC. All rights reserved.</p>
+      <p class="foot__disclaimer">Attorney advertising. This website is designed for general information only and should not be construed as formal legal advice or the formation of an attorney-client relationship. Past results do not guarantee future outcomes.</p>
+    </div>
+
+    <div class="foot__credit" aria-label="Site credit">
+      <span class="foot__credit-rule" aria-hidden="true"></span>
+      <span class="foot__credit-text">
+        Designed &amp; built by
+        <strong>Imprint Global LLC</strong>
+      </span>
+      <span class="foot__credit-rule" aria-hidden="true"></span>
+    </div>
+  </footer>
+
+  <script src="script.js?v=5" defer></script>
+</body>
+</html>
