@@ -541,6 +541,14 @@ section {
 @media (max-width: 760px) {
   .nav__cta .btn--ghost { display: none; }
   .nav__burger { display: inline-block; }
+
+  .sheet__panel {
+    padding: 5rem 1.5rem 1.5rem;
+  }
+  .sheet__panel a {
+    font-size: clamp(1.375rem, 5.5vw, var(--fs-28));
+    padding: .5rem 0;
+  }
 }
 
 /* ---------- Mobile sheet ---------- */
@@ -556,12 +564,16 @@ section {
 .sheet__panel {
   position: absolute; top: 0; right: 0; bottom: 0;
   width: min(420px, 92vw);
+  max-height: 100dvh;
   background: var(--plum-dd);
   color: var(--text-light);
   padding: 6rem 2rem 2rem;
   display: flex; flex-direction: column; gap: .25rem;
   transform: translateX(100%);
   transition: transform var(--dur-3) var(--ease-out);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 .sheet.is-open .sheet__panel { transform: translateX(0); }
 .sheet__panel a {
